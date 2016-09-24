@@ -1,0 +1,21 @@
+# Site settings
+title: The Gem of my movie eye.
+header-img: img/home-bg.png
+email: juanriv45@gmail.com
+copyright_name: Juanriv45
+description: > # this means to ignore newlines until "baseurl:"
+  First Gem and Blog ever!
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Juanriv45
+learn_profile: Juanriv45
+email_username: juanriv45@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
